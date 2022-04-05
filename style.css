@@ -71,6 +71,10 @@ a.button--primary:hover {
     z-index: 6;
 }
 
+.disclaimer__body .header .navbar {
+    background-color: rgba(34, 41, 68, 0.9) !important;
+}
+
 .servicios__body .header .navbar {
     background-color: rgba(34, 41, 68, 0.2) !important;
 }
@@ -598,6 +602,13 @@ nav.navbar.bg-dark {
 .footer__privacidad a {
     color: var(--color-gray);
 }
+
+/* Disclaimer */
+.disclaimer__content {
+    margin-top: 62px;
+    font-size: var(--md);
+}
+
 /* ***************************************
 ----------------- Media Querys -----------
 **************************************** */
